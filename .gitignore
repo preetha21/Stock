@@ -1,6 +1,35 @@
-data/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment caches and generated model files
 runs_FULL/
 runs_QUICK/
-figures/
-tables/
-manuscript/
+
+# Temporary/local experiment directory
+SIGMA_Stock_revision/
+
+# Generated ZIP archives
+*.zip
+
+# Local environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Local editor files
+.vscode/
+.idea/
